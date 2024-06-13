@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/pages/Home';
+import Cuisine from './components/pages/Cuisine';
+import Menu from './components/Menu/Menu';
+import SearchResults from './components/pages/SearchResults'; // Importa la nuova pagina dei risultati della ricerca
+import Details from './components/pages/Details';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Menu />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cuisine/:type" element={<Cuisine />} />
+        <Route path="/search/:searchValue" element={<SearchResults />} /> {/* Nuova route per i risultati della ricerca */}
+        <Route path="/detail/:id" element={<Details />} /> {/* Nuova route per i dettagli delle ricette */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
