@@ -8,7 +8,7 @@ const getDessertService = async () => {
                 number: 1000,
                 type: 'dessert',
                 diet: 'vegetarian',
-                apiKey: 'afa529ccde7c4e4ba140dd8570d5bd09'
+                apiKey: '81a32e57dbdb47bbb6ca27e9492f0d84'
             }
         });
         return response.data;
@@ -25,7 +25,7 @@ const getMainCourseService = async () => {
                 number: 1000,
                 type: 'main course',
                 diet: 'vegetarian',
-                apiKey: 'afa529ccde7c4e4ba140dd8570d5bd09'
+                apiKey: '81a32e57dbdb47bbb6ca27e9492f0d84'
             }
         });
         return response.data;
@@ -42,7 +42,7 @@ const getSnackService = async () => {
                 number: 1000,
                 type: 'snack',
                 diet: 'vegetarian',
-                apiKey: 'afa529ccde7c4e4ba140dd8570d5bd09'
+                apiKey: '81a32e57dbdb47bbb6ca27e9492f0d84'
             }
         });
         return response.data;
@@ -59,7 +59,7 @@ const getBreakfastService = async () => {
                 number: 1000,
                 type: 'breakfast',
                 diet: 'vegetarian',
-                apiKey: 'afa529ccde7c4e4ba140dd8570d5bd09'
+                apiKey: '81a32e57dbdb47bbb6ca27e9492f0d84'
             }
         });
         return response.data;
@@ -76,7 +76,7 @@ const getSideDishService = async () => {
                 number: 1000,
                 type: 'side dish',
                 diet: 'vegetarian',
-                apiKey: 'afa529ccde7c4e4ba140dd8570d5bd09'
+                apiKey: '81a32e57dbdb47bbb6ca27e9492f0d84'
             }
         });
         return response.data;
@@ -93,7 +93,7 @@ const getAppetizerService = async () => {
                 number: 1000,
                 type: 'appetizer',
                 diet: 'vegetarian',
-                apiKey: 'afa529ccde7c4e4ba140dd8570d5bd09'
+                apiKey: '81a32e57dbdb47bbb6ca27e9492f0d84'
             }
         });
         return response.data;
@@ -109,7 +109,7 @@ const searchRecipesService = async (query) => {
             params: {
                 query,
                 number: 1000,
-                apiKey: 'afa529ccde7c4e4ba140dd8570d5bd09'
+                apiKey: '81a32e57dbdb47bbb6ca27e9492f0d84'
             }
         });
         return response.data;

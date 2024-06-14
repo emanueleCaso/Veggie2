@@ -9,7 +9,7 @@ const Details = () => {
   useEffect(() => {
     const fetchRecipeDetails = async () => {
       try {
-        const response = await fetch(`https://api.spoonacular.com/recipes/${id}/information?includeNutrition=true&apiKey=afa529ccde7c4e4ba140dd8570d5bd09`);
+        const response = await fetch(`https://api.spoonacular.com/recipes/${id}/information?includeNutrition=true&apiKey=81a32e57dbdb47bbb6ca27e9492f0d84`);
         const data = await response.json();
         setRecipeDetails(data);
       } catch (error) {
