@@ -1,9 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "VeggieVibes",
+  "name": "VeggieVibes",
+  "icons": [
+    {
+      "src": "forchetta-e-cucchiaio-con-foglie-icona-di-cibo-vegetariano-vettore-design-2f1wf8t.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
-
