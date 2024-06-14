@@ -2,7 +2,7 @@
   "name": "vegetarian-recipes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ale93ag.github.io/VeggieVibes",
+  "homepage": "https://ale93ag.github.io/VeggieVibes/",
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@testing-library/jest-dom": "^5.17.0",
